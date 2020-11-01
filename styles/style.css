@@ -1,22 +1,265 @@
-.mySlides {
-    display:none;
+:root {
+  --background: #272a31;
+  --textColor: #ec5242;
+  --others: #d3d3d3;
 }
 
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+@font-face {
+  font-family: 'COCOGOOSE';
+  src: url("../assets/fonts/Cocogoose_trial.woff"), url("../assets/fonts/Cocogoose_trial.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-item-a {
+  color: var(--others);
+}
+
+.nav-item-a:hover {
+  color: wheat;
+}
+
+.nav-2-container {
+  margin-top: 0;
+  background: #fff !important;
+}
+
+.nav-item-a-2 {
+  font-size: 14px;
+}
+
+.ham-menu {
+  font-size: 40px;
+  color: var(--background);
+}
+
+.title-1 {
+  color: var(--textColor);
+}
+
+.title-main {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: bolder;
+  font-size: 6rem;
+  color: var(--textColor);
+  line-height: 1;
+  background: linear-gradient(45deg, rgba(255, 0, 1, 1) 0%, rgba(40, 6, 8, 1) 33%, rgba(233, 18, 23, 1) 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.event-des {
+  background-color: var(--others);
+  border: 2px solid white;
+}
+
+.date {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 2rem;
+}
+
+.main-program {
+  text-align: center;
+  background-image: url("../images/Diamond-Sunset.svg");
+  background-size: cover;
+}
+
+.main-program-line {
+  border: 1px solid var(--textColor);
+  width: 2rem;
+  margin: 0 auto;
+}
+
+.programs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--others);
+}
+
+.event {
+  width: 19%;
+  background: #adabab38;
+  padding: 0.7rem;
+  height: 14rem;
+  line-height: 1.1;
+}
+
+.program-title {
+  font-size: 1rem;
+  color: #ec5242;
+}
+
+.icon {
+  width: 50px;
+}
+
+.tkt {
+  color: #fff;
+  font-size: 12px;
+}
+
+.tkt:hover {
+  color: aqua;
+  text-decoration: none;
+}
+
+.title h3 {
+  text-align: center;
+}
+
+.sp-bg {
+  background-image: url('../images/blank.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 5rem 5rem;
+}
+
+.feature {
+  text-align: center;
+}
+
+.bands-hr {
+  width: 10%;
+}
+
+.heading {
+  background-image: url("../images/Pattern-Randomized.svg");
+  background-size: cover;
+}
+
+.program-detail-par {
+  font-size: 12px;
+  padding-top: 12px;
+}
+
+.partner {
+  background-color: #414141;
+}
+
+.partners {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: end;
+  color: var(--others);
+  flex-wrap: wrap;
+}
+
+.partner-list {
+  width: 23%;
+  margin: 0.08rem auto;
+  align-content: flex-end;
+}
+
+.partner-list-1 {
+  margin-left: 6px;
+}
+
+.footer-content {
+  display: flex;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .lead {
+    min-width: 75%;
   }
-  .container {
-    position: relative;
-    font-family: Arial;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-1 {
+    display: none;
   }
-  .text-block {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+
+  .ph-display {
+    display: none;
   }
+
+  .nav-2-container {
+    background: url('../images/Pattern-Randomized.svg') bottom !important;
+    background-size: cover !important;
+  }
+
+  .heading {
+    padding-top: 2rem;
+  }
+
+  .title-1 {
+    font-size: x-large;
+  }
+
+  .title-main {
+    font-size: 2.5rem;
+  }
+
+  .lead {
+    min-width: 100%;
+    line-height: 1.7;
+    font-size: 1rem;
+  }
+
+  .date {
+    font-size: 1.2rem;
+  }
+
+  .location {
+    font-size: 1rem;
+  }
+
+  .programs {
+    flex-direction: column;
+    margin: 2.5rem 0;
+  }
+
+  .event {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    height: auto;
+    width: 100%;
+    margin: 6px auto;
+    padding: 1rem;
+  }
+
+  .program-title {
+    font-size: 1em;
+    overflow-wrap: break-word;
+  }
+
+  .program-detail-par {
+    font-size: 8px;
+  }
+
+  .partner-list {
+    width: 45%;
+  }
+
+  .footer-img {
+    width: 100px;
+    height: 40px;
+  }
+}
+
+
+
+
+
+
+        
+ 

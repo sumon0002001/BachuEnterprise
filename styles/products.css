@@ -1,0 +1,197 @@
+:root {
+    --background: #272a31;
+    --textColor: #ec5242;
+    --others: #d3d3d3;
+  }
+  
+  @font-face {
+    font-family: 'COCOGOOSE';
+    src: url("../assets/fonts/cocogoose_pro-trial.ttf"), url("../assets/fonts/cocogoose_pro_semilight-trial.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+
+  .nav-item-a {
+    color: var(--others);
+  }
+  
+  .nav-item-a:hover {
+    color: wheat;
+  }
+  
+  .nav-2-container {
+    margin-top: 0;
+  }
+  
+  .nav-item-a-2 {
+    font-size: 14px;
+  }
+  
+  .ham-menu {
+    font-size: 40px;
+    color: var(--background);
+  }
+  
+  .heading {
+    background-image: url("../images/Pattern-Randomized.svg");
+    background-size: cover;
+  }
+  
+  .main-title {
+    color: var(--textColor);
+    font-size: 3.5rem;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: bolder;
+  }
+  
+  .products {
+  background-color: var(--others) ;
+  }
+
+  .products-title {
+      color: var(--textColor)
+  }
+
+  .products-list {
+    display: flex;
+    padding-left: 28.5rem;
+   justify-items: center;
+   padding-bottom: 2rem;
+
+  }
+ 
+
+  .title h3 {
+    text-align: center;
+  }
+  
+ 
+  
+  .feature {
+    text-align: center;
+  }
+  
+  .bands-hr {
+    width: 10%;
+  }
+  
+   
+  
+  footer {
+    background-color: white
+  }
+  
+  .footer-content {
+    display: flex;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  
+    .ph-display {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .lead {
+      min-width: 75%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .heading {
+      padding-top: 2rem;
+    }
+  
+    .sub-title {
+      font-size: x-large;
+      color: #ec5242;
+    }
+  
+    .main-title {
+      font-size: x-large;
+    }
+  
+    .nav-2-container {
+      background: url('../images/Pattern-Randomized.svg') bottom !important;
+      background-size: cover !important;
+    }
+  
+    .title-main {
+      font-size: 2.5rem;
+    }
+  
+    .lead {
+      min-width: 100%;
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+  
+    .date {
+      font-size: 1.2rem;
+    }
+  
+    .location {
+      font-size: 1rem;
+    }
+  
+    .pasteve {
+      width: 100%;
+      height: 15rem;
+    }
+  
+    .event {
+      display: flex;
+      align-items: center;
+      text-align: left;
+      height: auto;
+      width: 100%;
+      margin: 6px auto;
+      padding: 1rem;
+    }
+  
+    .program-title {
+      font-size: 1em;
+      overflow-wrap: break-word;
+    }
+  
+    .program-detail-par {
+      font-size: medium;
+    }
+  
+    .about-past-symposium {
+      flex-direction: column;
+    }
+  
+    .partner-list {
+      width: 45%;
+      color: #fff;
+    }
+  
+    footer {
+      background-color: #d3d3d3;
+      color: #272a31;
+    }
+  
+    .footer-img {
+      width: 300px;
+      height: 50px;
+    }
+  }
+  

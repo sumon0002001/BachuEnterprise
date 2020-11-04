@@ -2,11 +2,11 @@
 A checmical company who imports and sells chemicals locally.
 
 Built With
-HTML and CSS
+HTML , CSS and Javascript
 
-Live Demo
 
-Live Demo Link (https://rawcdn.githack.com/sumon0002001/BachuEnterprise/642252c4174fdc2565c47bf1fcdd57b80e5e30cb/index.html)
+
+Live Demo Link (https://rawcdn.githack.com/sumon0002001/BachuEnterprise/dbfd3ccee098c32daa0873213ed5277bfe92ae63/index.html)
 
 Getting Started
 To get a local copy up and running follow these simple example steps.
@@ -18,7 +18,7 @@ Setup
 Download the zip or clone the repo and run index.html
 
 Authors
-👤 Author
+👤 Author Mir Rawshan Ali
 
 GitHub: @sumon0002001
 Twitter: @Sumon0002009
